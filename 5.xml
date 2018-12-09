@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE student[
+<!ELEMENT ad (usn,name,collegename,branch,year,email)>
+<!ELEMENT usn (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT collegename (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT label (#PCDATA|email|year|branch|collegename|usn)*>
+<!ELEMENT h3 (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+]>
+<?xml-stylesheet type="text/css" href="5.css"?>
+<stud_info>
+<h3> Student-Information</h3>
+<h2>Student 1</h2>
+<ad><label>USN:<usn>4bd06499</usn></label></ad>
+<ad><label>Name:<name>AAA</name></label></ad>
+<ad><label>College:<college>BIET,Dvg</college></label></ad>
+<ad><label>Branch:<branch>CSE</branch></label></ad>
+<ad><label>Year of Joining:<year>2007</year></label></ad>
+<ad><label>Email-ID:<email>aaa@gmail.com</email></label></ad>
+<h2> Student 2</h2>
+<ad><label>USN:<usn>4bd06499</usn></label></ad>
+<ad><label>Name:<name>BBB</name></label></ad>
+<ad><label>College:<college>BIET,Dvg</college></label></ad>
+<ad><label>Branch:<branch>CSE</branch></label></ad>
+<ad><label>Year of Joining:<year>2007</year></label></ad>
+<ad><label>Email-ID:<email>bbb@gmail.com</email></label></ad>  
+</stud_info>
